@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byteez</title>
+    <link rel="stylesheet" type="text/css" href="Script.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400;1,900&display=swap" rel="stylesheet">
+
+    <script>
+        function checkPIN() {
+          var pin = document.getElementById("pin").value;
+          if (pin === "8208843466") { // Change "1234" to your desired PIN
+            window.location.href = "Main.html"; // Change "redirect_page.html" to your desired destination page
+          } else {
+            alert("Incorrect PIN. Please try again.");
+          }
+        }
+      </script>
+</head>
+
+<body>
+  <div class="hero">
+
+  </div>
+  
+    <div class="txt">
+        <h2>Sh*t <span>is</span> gonna </h2>
+        <h2>be nice <span>FR</span> </h2>
+        <h2><span>just</span> wait <span>and</span> see</h2>
+        
+        
+    </div>
+
+    <Div class="Pin">
+      <div class="Admintxt">
+        <h1>Admin pin</h1>
+      </div>
+    
+    <form onsubmit="event.preventDefault(); checkPIN();">
+        <label for="pin"></label>
+        <input type="password" id="pin" name="pin" minlength="1" maxlength="30" required>
+        <br>
+        
+          <input type="submit" value="Submit">
+        </br>
+        
+      </form>
+    </Div>
+    
+</body>
+</html>

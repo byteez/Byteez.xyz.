@@ -1,0 +1,103 @@
+*{
+  padding:  0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: 'Poppins', sans-serif;
+
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #202020;
+}
+
+
+
+h1{
+  text-align: center;
+    padding-top: 20vh;
+  
+    color: white;
+    
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+input[type="password"] {
+  
+  margin: auto;
+
+  display: block;
+
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 8px;
+  padding: 10px; /* Adjust padding as needed */
+  width: 300px; /* Adjust width as needed */
+  transition: transform 0.3s;
+}
+  input[type="password"] :hover {
+  
+   scale: 1.1;
+  }
+  .pin {
+    text-align: center;
+    padding-top: 20vh;
+    align-items: center;
+    background: #202020;
+    padding: 50px 45px;
+    border-radius: 8px;
+    transition: all 0.45s ease;
+  }
+  input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s, font-weight 0.3s;
+  }
+  input[type="submit"]:hover {
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    transform: scale(1.1);
+  }
+  .label{
+    background: #202020;
+    color: white;
+    border-radius: 8px;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+  }
+  .txt{
+    text-align: center;
+    padding-top: 20vh; 
+    
+  }
+  .txt h2{
+    font-size: 75px;
+    color: rgb(255, 255, 255);
+    text-shadow: #171313;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    
+  }
+  span{
+    
+    
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
+  }
+  
+  
+   
+  
